@@ -47,42 +47,25 @@
 	</head>
 	<body>
 
-		<div data-role="page" id="Albums" >
-			<header data-role="header">
-				<h1>Albums</h1>
+		<div data-role="page" id="menu" >
+			<header data-role="header" id="category">
+				<h1>Category</h1>
 			</header>
-
 			<article data-role="content">
+				<div class="choice_list">
+					<h1>Music Category</h1>
 				<ul data-role="listview" data-filter="true">
-					<li>
-						<a href="Tuxedo_Album.html" target="_parent"> <h1>Tuxedo</h1> <img src="images/Album_Cover/Tuxedo.jpg"/>
-						<p>
-							Tuxedo Funk EP 3 tracks of pure disco-funk hot fire
-						</p> </a>
-					</li>
-					<li>
-						<a href="Jakubi_Album.html" target="_self"> <h1>Jakubi</h1> <img src="images/Album_Cover/jakubi.jpg"/>
-						<p>
-							Sometimes all you need is a holiday to make you feel better, we have one here for you.
-							The latest release from Jakubi is here.
-
-						</p> </a>
-					</li>
-					<li>
-						<a href="Remix_Album.html" target="_self"> <h1>Remix</h1> <img src="images/Album_Cover/faint_876.jpg"/>
-						<p>
-							Remix
-
-						</p> </a>
-					</li>
-					<li>
-						<a href="Smooth_Album.html" target="_self"> <h1>Smooth</h1> <img src="images/Album_Cover/Smooth.jpg"/>
-						<p>
-							Remix
-
-						</p> </a>
-					</li>
+					<li><a href="Jazz-albums.html" data_transition="flip">
+						<img scr="images/....jpg"/><h3>Jazz</h3>	
+					</a></li>
+					<li><a href="Remix-albums.html" data_transition="flip">
+						<img scr="images/....jpg"/><h3>Remix</h3>	
+					</a></li>
+					<li><a href="Smooth-albums.html" data_transition="flip">
+						<img scr="images/....jpg"/><h3>Smooth</h3>	
+					</a></li>
 				</ul>
+				</div>
 			</article>
 			<footer>
 				<p>
@@ -94,32 +77,15 @@
 				<nav data-role="navbar">
 					<ul>
 						<li>
-							<a href="index.html" target="_self" data-icon="home">Home</a>
-						</li>
-						<li>
-							<a href="index.html" target="_self" data-icon="grid">Album</a>
-						</li>
-						<li>
 							<a href="ShopCart.html" target="_self" data-icon="shop">shop</a>
 						</li>
-						</li>
+						<li>
+							<a href="index.html" target="_self" data-icon="home">Home</a>
+						<li>
 					</ul>
 				</nav>
 			</footer>
 		</div>
 
 	</body>
-
-	<script language'="JavaScript">
-		function openindex() {
-			OpenWindow = window.open("", "newwin");
-			OpenWindow.document.write("<HTML>")
-			OpenWindow.document.write("<TITLE>Title Goes Here</TITLE>")
-			OpenWindow.document.write("<BODY BGCOLOR=pink>")
-			OpenWindow.document.write("<h1>Hello!</h1>")
-			OpenWindow.document.write("This text will appear in the window!")
-			OpenWindow.document.write("</BODY>")
-			OpenWindow.document.write("</HTML>")
-		}
-	</script>
 </html>
