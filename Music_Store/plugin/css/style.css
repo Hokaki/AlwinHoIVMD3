@@ -3,7 +3,7 @@
 .ttw-music-player {
     width: 370px;
     margin: 60px auto;
-    font-family: 'Lato', arial, sans-serif;
+    font-family: Harlow Solid, sans-serif;
 }
 
 .ttw-music-player .player {
@@ -70,7 +70,7 @@
 }
 
 .ttw-music-player .player .title {
-    color: #333333;
+    color: #FFFFC6;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
     font-family: 'Lato Bold', arial, sans-serif;
     font-weight: bold;
@@ -78,13 +78,13 @@
 }
 
 .ttw-music-player .artist-outer {
-    color: #333333;
+    color: #FFFFC6;
     font-family: 'Lato Italic', arial, sans-serif;
     font-style: italic;
 }
 
 .ttw-music-player .artist {
-    color: #333333;
+    color: #FFFFC6;
     font-family: 'Lato', arial, sans-serif;
     margin-left: 4px;
 }
@@ -110,7 +110,7 @@
 }
 
 /** Player **/
-.ttw-music-player .player-controls {
+/*.ttw-music-player .player-controls {
     width: 215px;
     height: 30px;
     border-radius: 6px;
@@ -119,9 +119,9 @@
     background: transparent url(../images/player-bg.png) repeat 0 0 scroll;
     float: left;
     margin: 12px 0 0 30px;
-}
+}*/
 
-.ttw-music-player .player-controls .main {
+/*.ttw-music-player .player-controls .main {
     width: 52px;
     height: 12px;
     margin: 9px 9px;
@@ -177,7 +177,7 @@
     height: 9px;
     width: 135px;
     cursor: pointer;
-}
+}*/
 
 .ttw-music-player .elapsed {
     height: 6px;

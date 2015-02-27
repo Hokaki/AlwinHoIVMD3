@@ -59,7 +59,7 @@ var myPlaylist = [
         // artist:'Listenbee',
         // rating:4,
         // buy:'#',
-        // price:'0.99',
+        // price:' 0.99',
         // duration:'5:34',
         // cover:'mix/Remix/faint_876.jpg'
     // }
