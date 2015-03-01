@@ -13,7 +13,13 @@
     /*src: url('../fonts/Lato-Bold.ttf');*/
 /*}*/
 
-html { overflow-y: scroll; }
+html { 		background: url(images/home.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				width: 100%;
+				height: 100%;}
 
 body {
     background: #444 transparent repeat 0 0 scroll;
@@ -41,3 +47,58 @@ body {
 #download:hover{
     color:#fff;
 }
+
+
+img{
+max-width: 100%;
+height: auto; width: auto;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.ui-grid-a .ui-block-a, .ui-grid-a .ui-block-b {
+    width: 48%;
+    padding:1%;
+}
+
+
+/*** home **/
+
+#branding{
+background:url(../images/SellMSoul.png) no-repeat;
+width:340px;
+height:222px;
+text-indent:-999px;
+font-size:0px;
+margin:-10px auto 0 auto;
+border-bottom:1px solid rgba(65, 38, 37, 0.6);
+}
+
+#branding.ui-header .ui-title {
+	background: none;
+}
+
+#home .choice_list h1{
+background-position: 0 -16px;
+}
+#home .choice_list  h3{
+padding-top:10px;
+color:rgb(63, 41, 39);
+}
+#home .choice_list .ui-btn-active  a.ui-link-inherit h3{
+color:#fff;
+}
+
+
+/**** jazz **/
+
+#jazz{
+background: url(../images/Genre/BackJazz.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				width: 100%;
+				height: 100%;
+}
+
