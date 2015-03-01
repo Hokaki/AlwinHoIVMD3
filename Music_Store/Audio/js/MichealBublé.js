@@ -9,17 +9,6 @@
 var myPlaylist = [
 
     {
-        mp3:'mix/MichaelBublé/Michael Bublé - Everything [Official Music Video].mp3',
-        oga:'mix/MichaelBublé/Michael Bublé - Everything [Official Music Video].ogg',
-        title:'Everything',
-        artist:'Michael Bublé',
-        rating:4,
-        buy:'#',
-        price:'0.99',
-        duration:'3:33',
-        cover:'mix/MichaelBublé/MichaelBuble.jpg'
-    },
-    {
         mp3:'mix/MichaelBublé/Michael Bublé - Feeling Good (Video).mp3',
         oga:'mix/MichaelBublé/Michael Bublé - Feeling Good (Video).ogg',
         title:'Feeling Good ',
@@ -28,6 +17,17 @@ var myPlaylist = [
         buy:'#',
         price:'0.99',
         duration:'4:02',
+        cover:'mix/MichaelBublé/MichaelBuble.jpg'
+    },
+    {
+        mp3:'mix/MichaelBublé/Michael Bublé - Everything [Official Music Video].mp3',
+        oga:'mix/MichaelBublé/Michael Bublé - Everything [Official Music Video].ogg',
+        title:'Everything',
+        artist:'Michael Bublé',
+        rating:4,
+        buy:'#',
+        price:'0.99',
+        duration:'3:33',
         cover:'mix/MichaelBublé/MichaelBuble.jpg'
     }
 ];
