@@ -13,13 +13,7 @@
     /*src: url('../fonts/Lato-Bold.ttf');*/
 /*}*/
 
-html { 		background: url(images/home.jpg) no-repeat center center fixed;
-				-webkit-background-size: cover;
-				-moz-background-size: cover;
-				-o-background-size: cover;
-				background-size: cover;
-				width: 100%;
-				height: 100%;}
+html { overflow-y: scroll; }
 
 body {
     background: #444 transparent repeat 0 0 scroll;
@@ -101,4 +95,44 @@ background: url(../images/Genre/BackJazz.jpg) no-repeat center center fixed;
 				width: 100%;
 				height: 100%;
 }
+
+
+/**** Home **/
+
+#home{
+background: url(../images/home.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				width: 100%;
+				height: 100%;
+}
+
+
+/**** Electro **/
+
+#electro{
+background: url(../images/Genre/BackElectro.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				width: 100%;
+				height: 100%;
+}
+
+
+/**** Rock **/
+
+#rock{
+background: url(../images/Genre/BackRock.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				width: 100%;
+				height: 100%;
+}
+
 
