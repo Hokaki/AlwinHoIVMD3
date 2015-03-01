@@ -42,3 +42,4 @@ var myPlaylist = [
         cover:'mix/Jakubi/jakubi.png'
     }
 ];
+
