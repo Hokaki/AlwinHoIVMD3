@@ -18,16 +18,18 @@
 				<h1>Todo</h1>
 			</div>
 			<input type="text" name="item" placeholder="Add an item.." onchange="add();">
-			<div data-role="content"></div>
+			<div data-role="content">
+				<ul id="items" data‐role="listview" data‐inset="true"></ul>
+			</div>
 		</div>
 		
-	</body>
-			<script type="text/javascript">
+		<script type="text/javascript">
 		$(document).on('pagebeforeshow', '#home', function(event) {
 		homepage();
 		});
-	</script>
-		<footer data-role="footer" data-position="fixed">
-		<ul id="items" data‐role="listview" data‐inset="true"></ul>
-		</footer>
+		</script>
+	
+		
+	</body>
+			
 </html>

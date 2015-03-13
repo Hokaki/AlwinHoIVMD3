@@ -1,42 +1,42 @@
 function add() {
 	// Retrieve the entered form data
 	var title = $('[name="item"]').val();
-	// Fetch the existing objects
-	var objects = getObjects();
+	// Fetch the existing test
+	var test = gettest();
 	// Push the new item into the existing list
-	objects.push({
+	test.push({
 		title : title
 	});
 	// Store the new list
-	saveObjects(objects);
-	// Reload the page to show the new objects
+	savetest(test);
+	// Reload the page to show the new test
 	window.location.reload();
 }
 
-function getObjects() {
-	// See if objects is inside localStorage
-	if (localStorage.getItem("objects")) {
-		// If yes, then load the objects
-		objects = JSON.parse(localStorage.getItem("objects"));
+function gettest() {
+	// See if test is inside localStorage
+	if (localStorage.getItem("test")) {
+		// If yes, then load the test
+		test = JSON.parse(localStorage.getItem("test"));
 	} else {
-		// Make a new array of objects
-		objects = new Array();
+		// Make a new array of test
+		test = new Array();
 	}
-	return objects;
+	return test;
 }
 
-function saveObjects(objects) {
+function savetest(test) {
 	// Save the list into localStorage
-	localStorage.setItem("objects", JSON.stringify(objects));
+	localStorage.setItem("test", JSON.stringify(test));
 }
 
 function homepage() {
-	// Fetch the existing objects
-	objects = getObjects();
+	// Fetch the existing test
+	test = gettest();
 	// Clear the list
 	$('#items').find('li').remove();
-	// Add every object to the objects list
-	$.each(objects, function(index, item) {
+	// Add every object to the test list
+	$.each(test, function(index, item) {
 		element = '<li>' + item.title + '</li>';
 		$('#items').append(element);
 	});
